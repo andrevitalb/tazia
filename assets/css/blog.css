@@ -1,0 +1,17 @@
+.blog {
+	padding: 10vh 0;
+}
+
+.blog__item__image {
+	width: 100%;
+}
+
+.blog__title-container {
+	background-color: greenyellow;
+	text-align: center;
+	padding: 1rem 0;
+}
+
+.blog__title {
+	color: #fff;
+}

@@ -1,0 +1,261 @@
+/* ========== Google Fonts ========== */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
+
+/* ========== General ========== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	/* background-color: #ffc6ff; */
+	background-color: #fff;
+	font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+}
+
+a {
+	transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+::selection {
+	background-color: #b93b7c;
+	color: #fff;
+}
+
+.justify-center { justify-content: center; }
+
+/* ========== Navbar ========== */
+.navbar {
+	width: 100%;
+	text-align: center;
+	background-color: #3bb9b6;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.navbar__top {
+	padding: .5rem 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar__top__user {
+	align-items: center;
+}
+
+.navbar__top__username,
+.navbar__top__links {
+	margin-bottom: 0;
+}
+
+.navbar__top__user i {
+	margin: 0 5px;
+}
+
+.navbar__top__user__logout {
+	cursor: pointer;
+	transition: all .3s ease-in-out;
+	border-bottom: 1.5px solid transparent;
+}
+
+.navbar__top__user__logout:hover {
+	border-color: #fff;
+}
+
+.navbar__top,
+.navbar__top__login,
+.navbar__top__register,
+.navbar__top__shopping-cart {
+	color: #fff !important;
+}
+
+.navbar__top__login,
+.navbar__top__register,
+.navbar__top__shopping-cart {
+	border-bottom: 1.5px solid transparent;
+}
+
+.navbar__top__login:hover,
+.navbar__top__register:hover,
+.navbar__top__shopping-cart:hover {
+	border-color: #fff;
+}
+
+.navbar__top__login,
+.navbar__top__register {
+	margin: 0 5px;
+}
+
+.navbar__top__shopping-cart {
+	margin: 0 10px;
+}
+
+.navbar__top__shopping-cart i {
+	font-size: 1.2rem;
+}
+
+.navbar__logo-container {
+	width: 100%;
+}
+
+.navbar__logo {
+	display: inline-block;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+
+.navbar__logo__image {
+	height: 60px;
+}
+
+.navbar-collapse {
+	justify-content: center;
+}
+
+.nav-item {
+	margin: 0 5px;
+}
+
+.nav-link {
+	display: block;
+	border-radius: 10px;
+	color: #fff !important;
+	padding: 0.5rem 1rem !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.nav-item--active .nav-link,
+.nav-link:hover {
+	background-color: #ffc6ff;
+}
+
+/* ========== Carousel ========== */
+.jumbotron {
+	padding: 5vh 0;
+	margin: 0;
+	border-radius: 0;
+	background: none;
+}
+
+.jumbotron__container .col-12 {
+	padding: 0 !important;
+}
+
+.carousel-item img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+/* ========== Best Sellers ========== */
+.best-sellers {
+	padding: 5vh 0;
+	background-color: #3bb9b6;
+}
+
+.best-sellers__title {
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.best-sellers__image-link {
+	display: block;
+	overflow: hidden;
+}
+
+.best-sellers__image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.3s ease-in-out;
+}
+
+.best-sellers__image:hover {
+	transform: scale(1.05);
+}
+
+/* ========== Brand ========== */
+.brand {
+	padding: 5vh 0;
+	text-align: center;
+	background-color: #fff;
+}
+
+.brand__title {
+	margin-bottom: 3rem;
+}
+
+.brand__title::after {
+	content: '';
+	display: block;
+	margin: 5px auto 0;
+	background-color: #b9993b;
+	height: 3px;
+	width: 100px;
+}
+
+.brand__asset__image {
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+/* ========== Footer ========== */
+.footer {
+	padding: 2rem 0 0.5rem;
+	color: white;
+	background-color: #b93b7c;
+}
+
+.footer a {
+	color: #fff !important;
+}
+
+.footer__header {
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.footer__link-container {
+	list-style: none;
+}
+
+.footer__link,
+.footer__contact__item a {
+	display: inline-block;
+	padding: 0.5rem 0;
+	color: #fff !important;
+}
+
+.footer__link:hover,
+.footer__contact__item a:hover {
+	transform: translateX(10px);
+}
+
+.footer-copyright a {
+	display: inline-block;
+	border-bottom: 1px solid transparent;
+}
+
+.footer-copyright a:hover {
+	border-color: #fff;
+}

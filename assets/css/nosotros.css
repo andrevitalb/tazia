@@ -1,0 +1,95 @@
+/* ========== Main About ========== */
+.about {
+	padding: 5vh 0;
+}
+
+.about__image {
+	width: 100%;
+}
+
+.about__image-holder {
+	width: 100%;
+	padding: 2rem;
+}
+.about__image-holder::after {
+	content: '';
+	position: absolute;
+	top: 3.25rem;
+	left: calc(3.25rem + 15px);
+	width: calc(100% - 4rem - 30px);
+	height: calc(100% - 4rem);
+	z-index: -1;
+	background-color: #3bb9b6;
+}
+
+.about__content {
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	padding: 2rem;
+}
+
+.about__title {
+	margin-bottom: 2rem;
+}
+
+.about__text {
+	width: 100%;
+	font-size: 1.2rem;
+	line-height: 1.7rem;
+}
+
+/* ========== Eco Friendly ========== */
+.eco-friendly {
+	padding: 10vh 0;
+	background-color: #3bb9b6;
+}
+
+.eco-friendly__title {
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.eco-friendly__image {
+	width: 100%;
+}
+
+.eco-friendly__text {
+	color: #fff;
+}
+
+.social {
+	text-align: center;
+	background-color: #ffc6ff;
+	padding: 5vh 0;
+}
+
+.social__container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.social__title {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 2rem;
+}
+
+.social__item {
+	padding: 1rem;
+	margin: 0 2rem;
+	transition: all .3s ease-in-out;
+}
+
+.social__item:hover {
+	transform: translateY(-10px);
+}
+
+.social__image {
+	width: 80px;
+}

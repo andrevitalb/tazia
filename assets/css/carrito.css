@@ -1,0 +1,217 @@
+.shopping-cart {
+    padding: 12vh 0;
+    background-color: #f2f2f2;
+}
+
+.shopping-cart__container, 
+.shopping-cart__item-container {
+    padding: 1.5rem;
+    background-color: #fff;
+}
+
+.shopping-cart__item {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #ddd;
+}
+
+.shopping-cart__item__image {
+    width: 100%;
+    padding: 1rem 0;
+    margin-right: 2rem;
+}
+
+.shopping-cart__item__name {
+    font-size: 1.5rem;
+}
+
+.shopping-cart__item__price,
+.shopping-cart__total__value {
+	font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0;
+}
+
+.shopping-cart__item__quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-cart__item__button {
+    padding: .75rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopping-cart__item__button i {
+    font-size: 1.2rem;
+}
+
+.shopping-cart__item__button--minus {
+    border-radius: 5px 0 0 5px;
+}
+
+.shopping-cart__item__button--plus {
+    border-radius: 0 5px 5px 0;
+}
+
+.shopping-cart__button--discount {
+    background-color: #ffc6ff;
+    color: #fff !important;
+}
+
+.shopping-cart__button--discount:hover {
+    background-color: #e79de7;
+}
+
+.shopping-cart__item__count {
+    padding: .75rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 50px;
+    text-align: center;
+}
+
+.shopping-cart__total {
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.shopping-cart__subTotal__title,
+.shopping-cart__subTotal__value,
+.shopping-cart__discount__title,
+.shopping-cart__discount__value,
+.shopping-cart__total__title,
+.shopping-cart__total__value {
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.shopping-cart__subTotal__title,
+.shopping-cart__subTotal__value {
+    font-size: 1.25rem;
+}
+
+.shopping-cart__discount__title,
+.shopping-cart__discount__value {
+    font-size: 1rem;
+}
+
+.shopping-cart__total__title,
+.shopping-cart__total__value {
+    font-size: 1.75rem;
+}
+
+.shopping-cart__emptyCartMsg {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.shopping-cart__emptyCartMsg-container {
+    text-align: center;
+    padding: 5vh 0;
+}
+
+.shopping-cart .col-12,
+.shopping-cart .col-3 {
+    padding: 5px;
+}
+
+.shopping-cart__calculator__button--number {
+    background-color: #3bb9b6;
+    color: #fff !important;
+}
+
+.shopping-cart__calculator__button--number:hover {
+    background-color: #178886;
+}
+
+.shopping-cart__calculator__button--operator {
+    background-color: #b93b7c;
+    color: #fff !important;
+}
+
+.shopping-cart__calculator__button--operator:hover {
+    background-color: #96255f;
+}
+
+.shopping-cart__calculator__button--action {
+    background-color: #96e686;
+    color: #fff !important;
+}
+
+.shopping-cart__calculator__button--action:hover {
+    background-color: #5bc446;
+}
+
+.shopping-cart__calculator button,
+.shopping-cart__calculator input {
+    width: 100%;
+}
+
+.quiz {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+.quiz-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.quiz__top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+
+.quiz__title {
+    display: block;
+}
+
+.quiz__closeButton {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    height: 2rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quiz__answer-button {
+    padding: 1rem;
+    background-color: #3bb9b6;
+    color: #fff !important;
+}
+
+.quiz__answer-button:hover {
+    background-color: #178886;
+}
+
+.quiz__bottom {
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+}

@@ -1,0 +1,74 @@
+.register, .login {
+	padding: 5vh 0;
+}
+
+.register__title, .login__title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.register__form, .login__form {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	padding: 1.5rem;
+}
+
+.register__input, .login__input,
+.register__button, .login__button  {
+	width: 100%;
+	padding: 12px;
+	border: none;
+	border-radius: 4px;
+	margin: 5px 0;
+	opacity: 0.85;
+	display: inline-block;
+	font-size: 17px;
+	line-height: 20px;
+	transition: all .3s ease-in-out;
+}
+
+.register__input:hover, .login__input:hover,
+.register__button:hover, .login__button:hover {
+	opacity: 1;
+}
+
+.register__button, .login__button {
+	background-color: #96e686;
+	color: #fff !important;
+}
+
+.register__button:hover, .login__button:hover {
+	background-color: #72c063;
+}
+
+.login__button--fb {
+	background-color: #a0c4ff;
+}
+
+.login__button--fb:hover {
+	background-color: #6695e2;
+}
+
+.login__button--twitter {
+	background-color: #9bf6ff;
+}
+
+.login__button--twitter:hover {
+	background-color: #6de5f0;
+}
+
+.login__button--google {
+	background-color: #ffadad;
+}
+
+.login__button--google:hover {
+	background-color: #f76969;
+}
+
+.login__button--cta {
+	background-color: #FFC6FF;
+}
+
+.login__button--cta:hover {
+	background-color: #ee88ee;
+}

@@ -1,0 +1,99 @@
+.text {
+	text-align: center;
+	background-color: palevioletred;
+	padding: 15px;
+	margin: 40px;
+	color: white;
+}
+
+.text1 {
+	text-align: center;
+	background-color: greenyellow;
+	padding: 10px;
+	margin: 50px;
+	color: white;
+}
+
+.form-group {
+	text-align: center;
+	background-color: palegreen;
+	padding: 10px;
+	margin: 30px;
+	color: black;
+}
+
+.btn-secondary {
+	text-align: center;
+	background-color: skyblue;
+	padding: 10px;
+	margin: 30px;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-container {
+	text-align: center;
+}
+
+.contact {
+	background-color: #f2f2f2;
+}
+
+.contact__header {
+	background-color: #B93B7C;
+	padding: 5vh;
+	text-align: center;
+}
+
+.contact__title {
+	color: #fff;
+}
+
+.contact-form-container {
+	padding: 5vh 0;
+}
+
+.contact-form {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5vh 5vw;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+.contact-form__label, 
+.contact-form__input {
+	width: 100%;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+}
+
+.contact-form__input {
+	padding: 1rem;
+	outline: none;
+	border-radius: 5px;
+	border: 1px solid #aaa;
+	transition: all .15s ease-in-out;
+}
+
+.contact-form__input:focus,
+.contact-form__input:active {
+	border: 2px solid #B93B7C;
+}
+
+.contact-form__label {
+	font-weight: 500;
+}
+
+#contact-form__input--message {
+	resize: none;
+}
+
+.contact-form__button {
+	font-size: 1.3rem;
+}
+
+.input-error {
+	border: 2px solid red;
+}
